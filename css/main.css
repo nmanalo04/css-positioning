@@ -10,6 +10,7 @@ html {
     background-image: url("../images/background.jpg");
     background-repeat: repeat;
     background-size: 2000px 1200px;
+
 }
 
 body{
@@ -69,6 +70,7 @@ footer {
     padding: 1em;
 }
 
+
 /* start positioning styles */
 
 .text-align-center{
@@ -109,6 +111,60 @@ footer {
         width: 100%;
       }
  }
+ 
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+   .fa:hover {
+      opacity: 0.7;
+  }
+   .fa-facebook {
+    background: #3B5998;
+    padding: 20px 25px;
+    color: white;
+  }
+   .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+   .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+   .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+   .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+ 
+  .social-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+ /* flexible image rules start here */
+
+
+.flexible img{
+    width:100%;
+ }
+ 
+ 
+ .flexible{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ 
+ /* flexible image rules end here */
  
  
 
